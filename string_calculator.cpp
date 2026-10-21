@@ -23,7 +23,7 @@ bool isDigit(char c) {
 // Step 1: Validation. Format is (+|-)A(.B)
 // ---------------------------------------------------------------
 bool isValidDouble(const string& s) {
-    size_t i = 0;
+    size_t i = 0; //
 
     // optional sign
     if (i < s.size() && (s[i] == '+' || s[i] == '-')) {
